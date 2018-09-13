@@ -29,7 +29,7 @@ public class Corredor extends Thread {
             for (int i = 1; i <= 100; i++) {
                 String name = str;
                 if (i==100){
-                    System.out.format("%s ran his distance\n", name);
+                    System.out.format("%s termino su  parte\n", name);
                     team.display();
                 }
             }

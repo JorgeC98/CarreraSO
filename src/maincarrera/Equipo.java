@@ -6,13 +6,14 @@
 package maincarrera;
 
 import java.util.Random;
+import javax.swing.JTextArea;
 /**
  *
  * @author JorgeRicardo
  */
 public class Equipo extends Thread {
 
-		String name;
+    String name;
     int mLeft = 4;
     Random rand = new Random(System.nanoTime());
     int max = 10000;
@@ -30,7 +31,7 @@ public class Equipo extends Thread {
             Resultado.finished(name);
         }
         if(mLeft==1){
-            System.out.println("Team "+ name + " last runner has set off");
+            System.out.println("Equipo "+ name + " ha terminado");
         }
         try {
             Thread.sleep(rand.nextInt((max-min) + 1));

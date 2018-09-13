@@ -9,13 +9,13 @@ package maincarrera;
  *
  * @author JorgeRicardo
  */
-public class Resultado {
+class Resultado {
     
  private static int place = 1;
  String name; 
     
     public static void finished(String name){
-        System.out.println("Team "+ name + " finished the race in place: #" + place);
+        System.out.println("Equipo "+ name + " termino en el lugar: #" + place);
         place++;
     }
     
