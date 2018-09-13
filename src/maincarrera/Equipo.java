@@ -6,7 +6,6 @@
 package maincarrera;
 
 import java.util.Random;
-import javax.swing.JTextArea;
 /**
  *
  * @author JorgeRicardo
