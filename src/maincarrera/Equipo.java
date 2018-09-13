@@ -13,7 +13,7 @@ import java.util.Random;
 public class Equipo extends Thread {
 
     String name;
-    int mLeft = 4;
+    int mLeft = 3;
     Random rand = new Random(System.nanoTime());
     int max = 10000;
     int min = 1;
